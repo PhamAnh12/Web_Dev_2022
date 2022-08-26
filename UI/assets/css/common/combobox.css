@@ -1,0 +1,82 @@
+.combobox {
+    display: flex;
+}
+
+.combobox-container {
+    position: relative;
+    margin-top: 4px;
+    height: 40px;
+}
+
+.combobox-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bbb;
+    height: 100%;
+    outline: none;
+    padding-left: 16px;
+    padding-right: 40px;
+}
+
+.combobox-down {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+   
+    height: 100%;
+}
+
+
+
+.combobox-container:hover .combobox-down .combobnt-down--icon {
+    transform: rotate(180deg);
+}
+
+.combobox-input:focus {
+    border-color: var(--primary-color);
+}
+
+.combobox-list {
+    display: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    position: absolute;
+    top: 114%;
+    left: -1px;
+}
+
+.combobox-list p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+    height: 40px;
+    padding-left: 24px;
+}
+
+.combobox-item-active {
+    position: relative;
+    color: var( --white-color);
+    background-color: var(--primary-color);
+}
+
+.combobox-item-active--icon {
+    position: absolute;
+    top: 14px;
+    left: 4px;
+    padding: 0 4px;
+    color: var(--white-color);
+}
+
+.combobox-list p:hover {
+    background-color: #e5e5e5;
+}
+
+.combobox-input:focus~.combobox-list {
+    display: block;
+}

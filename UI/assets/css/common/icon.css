@@ -1,0 +1,77 @@
+
+.icon{
+   
+    background-repeat: no-repeat;
+    background-position:  16px center;
+    padding-left: 40px;
+
+}.icon-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 120px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-warning{
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.icon-search{
+    background-image: url(../../icon/search.png);
+}
+.icon-add{
+    background-image: url(../../icon/add.png);
+}
+
+.icon-dashboard{
+    background-image: url(../../icon/dashboard.png);
+
+}
+.icon-report{
+    background-image: url(../../icon/report.png);
+}
+.icon-dic-emloyee{
+    background-image: url(../../icon/dic-employee.png);
+}
+.icon-seting{
+    background-image: url(../../icon/setting.png);
+    
+}
+.icon-delete{
+    background-image: url(../../icon/delete.png);
+    height: 20px;
+    width: 20px;
+}
+.icon-duplicate{
+    background-image: url(../../icon/duplicate.png);
+    height: 32px;
+    width: 32px;
+}
+.icon-refresh{
+    background-image: url(../../icon/refresh.png);
+    height: 24px;
+    width: 24px;
+}
+.icon-close{
+    background-image: url(../../icon/x.svg);
+}
+.icon-save{
+    background-image: url(../../icon/save-32.png);
+}
+.icon-warning-delete{
+    background-image: url(../../icon/warning.png);
+}
+.icon-success{
+    background-image: url(../../icon/successs.jpg);
+    width: 24px;
+    height: 24px;
+}
+.icon-warning-warn{
+    background-image: url(../../icon/warning.jpg);
+}

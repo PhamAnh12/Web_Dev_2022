@@ -1,0 +1,80 @@
+.popup-detail{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgba(0, 0, 0, 0.1);
+    
+   
+}
+.popup-form{
+  
+   background-color: var(--white-color);
+   z-index: 1;
+   position: relative;
+   border-radius: 4px;
+  
+}
+
+.popup-header{
+    margin: 24px 0 24px 24px;
+    font-weight: 600;
+    display: flex;
+
+    
+}
+.popup-body{
+    margin: 0 24px 24px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.popup-cancel{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    cursor: pointer;
+    min-width: 100px;
+}
+.popup-cancel:hover{
+    
+    background-color: var(--border-color);
+    
+}
+.popup-bnt-delete{
+    border: none;
+    background-color: #ff4747;
+    border-radius: 4px;
+    height: 40px;
+    min-width: 100px;
+    color: var( --white-color);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.vaild-form{
+    background-color: #ff4747;
+    z-index: 1;
+    position: relative;
+    
+    border-radius: 4px;
+    padding: 8px;
+}
+.vaild-form-body{
+    padding: 16px;
+   
+}
+.vaild-form-item{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,69 @@
+
+
+.navbar {
+    height: 100%;
+    border-right: 1px solid var(--border-color);
+    background-color: #ffff;
+   
+}
+
+.navbar-header {
+    display: flex;
+    padding-left: 16px;
+    padding-top:  12px;
+    padding-bottom: 12px;
+    align-items: center;
+}
+
+
+.navbar-header--icon {
+   background-image: url(../../../img/toggle.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   width: 24px;
+   height: 24px;
+}
+
+.navbar-header--img {
+    background-image: url(../../../img/cukcuk-logo.png);
+    background-repeat: no-repeat;
+    background-position:  0 center;
+    background-size: contain;
+   width: 240px;
+    height: 28px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+   
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.navbar-item--icon {   
+    width:20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.navbar-item--content {
+    margin-left: 10px;
+}
+.navbar-item--active{
+    background-color: var(--primary-color);
+    color: #ffff !important;
+    font-family: GoogleSans-Medium;
+   
+}
+.navbar-item:hover{
+    background-color: #e5e5e5;
+}

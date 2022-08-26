@@ -1,0 +1,23 @@
+.grid{
+
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: -8px;
+    padding-right: -8px;
+    height: 100%;
+  
+}
+.grid__column-2{
+    width: 16.667%;
+    
+    
+}
+.grid__column-10{
+    width: 83.3334%;
+   
+}

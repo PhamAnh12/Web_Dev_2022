@@ -1,0 +1,8 @@
+@import url(./navbar.css);
+@import url(./wrapper.css);
+@import url(./form_employ.css);
+
+.app {
+    display: flex;
+}
+

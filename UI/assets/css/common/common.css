@@ -1,0 +1,49 @@
+@import url(./button.css);
+@import url(./combobox.css);
+@import url(./input.css);
+@import url(./gird.css);
+@import url(./icon.css);
+@import url(./page.css);
+@import url(./table.css);
+@import url(./select.css);
+@import url(./form_detail.css);
+@import url(./popup.css);
+@import url(./toatast.css);
+:root {
+    --primary-color: #019160;
+    --bnt-hover: #2fbe8e;
+    --white-color: #fff;
+    --border-color:#bbbbbb
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: GoogleSans-Regular;
+    font-size: 13px;  
+  
+}
+body {
+    color: #000000;
+   
+}
+
+
+
+@font-face {
+    font-family: GoogleSans-Regular;
+    src: url(../../font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+    font-family: GoogleSans-Medium;
+    src: url(../../font/GoogleSans-Medium.otf);
+}
+.align-center{
+    text-align: center;
+   }
+   .align-right{
+    text-align: right;
+   }

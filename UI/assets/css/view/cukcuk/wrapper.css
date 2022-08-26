@@ -1,0 +1,103 @@
+.wrapper{
+    height: 100%;
+}
+.wrapper-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    height: 48px;
+    padding-left: 24px;
+}
+.wrapper-header-select{
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+.wrapper-header-select select{
+    border: none;
+    outline: none;
+    font-weight: 600;
+    
+}
+.wrapper-header-account{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+.account-icon{
+  background-image: url(../../../icon/avatar-default.png);
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: contain;
+  margin: 16px;
+  cursor: pointer;
+
+}
+
+.account-option{
+    background-image: url(../../../icon/option.png);
+    width: 16px;
+    height: 16px;
+    background-position: center;
+    background-size: contain;
+    margin: 16px;
+    cursor: pointer;
+}
+.wrapper-body{
+    padding: 16px;
+}
+.wrapper-sidebar{
+  margin-bottom: 4px;
+}
+.sidebar-header{
+   display: flex;
+   justify-content: space-between;
+   margin: 6px 0 6px 6px;
+}
+.sidebar-container{
+    display: flex;
+    align-items: center;
+}
+.sidebar-filter{
+    display: flex;
+    align-items: center;
+}
+.sidebar-filter-seclect{
+    margin-left: 8px;
+    padding-left: 8px;
+}
+.sidebar-search{
+   width: 30%;
+}
+.sidebar-bnt{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+ 
+   
+
+}
+.sidedar-btn-icon{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sidebar-bnt-container{
+    height: 40px;
+    width: 40px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.table-container{
+    overflow: scroll;
+    height: 564px;
+}
+

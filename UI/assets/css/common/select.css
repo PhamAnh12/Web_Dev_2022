@@ -1,0 +1,20 @@
+.select{
+    height: 40px;
+    border: 1px solid var(--border-color);
+    border-radius:4px ;
+    outline: none;
+    cursor: pointer;
+}
+select {
+    cursor: pointer;
+}
+.select-pading{
+    padding-left: 8px;
+}
+.select:focus{
+    border: 1px solid var( --primary-color);
+}
+.select-Nub-emp{
+    border: none;
+   height: 24px;
+}

@@ -1,0 +1,38 @@
+.toatast-container-con{
+    display: none;
+}
+.toatast-container{
+   position: fixed;
+   min-width: 240px;
+   height: 48px;
+   background-color: var(--white-color);
+   bottom: 8px;
+   right: 0;
+   display: flex;
+   align-items: center;
+   border: 4px;
+   box-shadow: 0 3px 6px  rgba(255,255,255,0.16);
+   border-radius: 4px;
+}
+.totast-icon-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 120px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toatast-icon-colse {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.toast-content{
+    margin: 0 48px 0 0;
+    display: flex;
+    align-items: center;
+}
+.toatast-icon-colse:hover{
+    background-color: var(--border-color);
+}

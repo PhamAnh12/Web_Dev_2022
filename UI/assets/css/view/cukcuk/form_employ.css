@@ -1,0 +1,135 @@
+.form-detail{
+    display: none;
+}
+.form-employee{
+    position: relative;
+    width: 66.666%;
+    background-color: var(--white-color);
+    border-radius: 4px;
+    margin: 10px 0;
+    overflow-y:scroll
+    
+}
+
+    
+    
+
+.form-employee-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding: 24px 24px 0 24px ;
+}
+.form-employee-header h2{
+    height: 24px;
+    font-size: 22px;
+    font-weight: 500;
+
+
+}
+.employee-icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    
+}
+.employee-icon-close:hover{
+    background-color: var(--border-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.form-employee-body{
+    
+    padding:0 24px 24px 24px ;
+    display: flex;
+    
+    
+    
+}
+.employee-body-avatar{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+
+}
+.body-avatar-img{
+   width: 160px;
+   height: 160px;
+   background-image: url(../../../img/default-avatar.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border-radius: 160px;
+   border: 1px solid var(--border-color);
+   cursor: pointer;
+}
+.employee-body-avatar p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.employee-body-input{
+    flex: 1;
+}
+.employee-input__header{
+    margin-left: 8px;
+}
+.input-header-underlined{
+    width: 90px;
+    border: 2px solid var(--primary-color);
+    margin-top: 6px;
+}
+.employee-input-row{
+   display: flex;
+   justify-content: space-between;
+}
+.input-container{
+    width: 50%;
+    margin-left: 8px;
+}
+.margin-top-24{
+    margin-top: 24px;
+}
+.form-employee-footer{
+    height: 60px;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+   
+    justify-content: right;
+    padding: 12px 24px;
+
+}
+.footer-bnt-save{
+    height: 36px;
+    
+}
+.employee-footer-save{
+   width: 40px;
+   height: 20px;
+   background-position: 16px center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   
+}
+.employee-footer-cancel{
+    width: 84px;
+    height: 36px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.employee-footer-cancel:hover{
+    background-color: var(--border-color);
+}
